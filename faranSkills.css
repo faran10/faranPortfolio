@@ -1,0 +1,1374 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: relative;
+    background-color: #171715;
+    height: 150px;
+    border-bottom: 1px solid white;
+}
+
+nav .container-fluid .navbar-nav {
+    /*  */
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    z-index: 1;
+}
+nav .container-fluid .collapse .navbar-nav {
+    padding: 20px 20px 20px 20px;
+   background-color: #171715;
+}
+
+nav .container-fluid .navbar-nav #home {
+    border: 2px solid white;
+    background-color: white;
+    color: #171715;
+    border-radius: 5px;
+}
+
+nav .container-fluid .navbar-nav a {
+    /* Buttons on Navbar */
+    color: white;
+    font-size: 25px;
+}
+
+nav .container-fluid .navbar-nav a:hover {
+    opacity: 0.6;
+}
+
+nav .container-fluid button {
+    background-color: white;
+}
+
+nav .container-fluid .navbar-brand {
+    color: white;
+    margin-right: 30px;
+    text-align: right;
+}
+
+.navbar .container-fluid img {
+    position: absolute;
+    width: 220px;
+    margin-top: -10px;
+}
+
+nav .container-fluid button {
+    position: absolute;
+    right: 0;
+}
+
+@media (max-width: 992px) {
+    nav .container-fluid button {
+        position: absolute;
+        top: 0;
+        margin-top: 60px;
+        margin-right: 30px;
+    }
+
+    .navbar .container-fluid img {
+        width: 180px;
+        margin-top: 60px;
+    }
+}
+
+.container-main3 {
+    position: relative;
+    width: 100%;
+    height: 511px;
+    background-color: #171715;
+    z-index: -1;
+}
+
+/*
+  .container-main .card {
+    position: absolute;
+    background-color: #171715;
+    right: 0;
+    margin-top: 60px;
+    margin-right: 80px;
+    border: 2px solid #171715;
+  } */
+
+
+.container-main .card {
+    position: absolute;
+    border: 2px solid lightgrey;
+    background-color: lightgrey;
+    opacity: 0.7;
+    border-radius: 12px;
+    width: 50%;
+    top: 0;
+    margin-top: 320px;
+    margin-left: 50px;
+    padding: 50px 50px 50px 50px;
+}
+
+.container-main .card h4 {
+    font-size: 40px;
+    color: #171715;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.container-main h5 {
+    text-align: right;
+}
+
+@media (max-width: 1115px) {
+    .container-main .card {
+        position: absolute;
+        top: 0;
+        margin-top: 240px;
+        margin-right: 30px;
+    }
+
+    .container-main .card h4 {
+        font-size: 30px;
+    }
+    .accounts {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 190px;
+    }
+    .accounts button {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 954px) {
+    .container-main .card {
+        position: absolute;
+        top: 0;
+        margin-top: 160px;
+        margin-right: 30px;
+    }
+
+    .container-main .card h4 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 828px) {
+    .container-main .card {
+        position: absolute;
+        width: 300px;
+        top: 0;
+        margin-top: 100px;
+        margin-right: 30px;
+    }
+
+    .container-main .card h4 {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 771px) {
+    .container-main .card {
+        position: absolute;
+        width: 300px;
+        top: 0;
+        padding: 30px 30px 30px 30px;
+        margin-top: 100px;
+        margin-right: 30px;
+    }
+
+    .container-main .card h4 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container-main .card {
+        position: absolute;
+        width: 250px;
+        top: 0;
+        padding: 30px 30px 30px 30px;
+        margin-top: 70px;
+        margin-right: 20px;
+    }
+
+    .container-main .card h4 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 510px) {
+    .container-main .card {
+        position: absolute;
+        width: 200px;
+        top: 0;
+        padding: 10px 10px 10px 10px;
+        margin-top: 50px;
+        margin-right: 10px;
+    }
+
+    .container-main .card h4 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 445px) {
+    .container-main .card {
+        position: absolute;
+        width: 200px;
+        top: 0;
+        padding: 10px 10px 10px 10px;
+        margin-top: 60px;
+        left: 0;
+        margin-left: 15px;
+    }
+
+    .container-main .card h4 {
+        font-size: 13px;
+    }
+
+    .container-main .card h5 {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 390px) {
+
+    .navbar .container-fluid img {
+        margin-left: -20px;
+    }
+
+
+    .container-main .card {
+        position: absolute;
+        width: 150px;
+        top: 0;
+        padding: 10px 10px 10px 10px;
+        margin-top: 60px;
+        left: 0;
+        margin-left: 15px;
+    }
+
+    .container-main .card h4 {
+        font-size: 10px;
+    }
+
+    .container-main .card h5 {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    .container-main .card {
+        position: absolute;
+        width: 150px;
+        top: 0;
+        padding: 10px 10px 10px 10px;
+        margin-top: 40px;
+        left: 0;
+        margin-left: 10px;
+    }
+
+    .container-main .card h4 {
+        font-size: 10px;
+    }
+
+    .container-main .card h5 {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 335px) {
+    .container-main .card {
+        position: absolute;
+        width: 150px;
+        top: 0;
+        padding: 10px 10px 10px 10px;
+        margin-top: 20px;
+        left: 0;
+        margin-left: 10px;
+    }
+
+    .container-main .card h4 {
+        font-size: 8px;
+    }
+
+    .container-main .card h5 {
+        font-size: 8px;
+    }
+    .accounts {
+        position: absolute;
+        display: block;
+        top: 0;
+        right: 0;
+        margin-top: 190px;
+        margin-left: -18px;
+    }
+    .accounts button {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 270px) {
+    nav {
+        height: 200px;
+    }
+
+    .container-main .card {
+        position: absolute;
+        width: 100px;
+        height: 140px;
+        top: 0;
+        padding: 5px 5px 5px 5px;
+        margin-top: 20px;
+        left: 0;
+        margin-left: 10px;
+    }
+
+    .container-main .card h4 {
+        font-size: 7px;
+    }
+
+    .container-main .card h5 {
+        font-size: 7px;
+    }
+
+    .navbar .container-fluid img {
+        margin-left: 15px;
+    }
+
+    nav .container-fluid button.navbar-toggler {
+        margin-top: 40px;
+        position: absolute;
+        top: 50%;
+        /* transform: translateY(-50%); */
+        transform: translateX(-120%);
+    }
+
+    nav .container-fluid .navbar-collapse .navbar-nav {
+        margin-top: 50px;
+        transform: translateX(-20%);
+    }
+}
+
+@media (max-width: 230px) {
+    nav {
+        height: 200px;
+    }
+
+    .container-main .card {
+        position: absolute;
+        width: 80px;
+        height: 130px;
+        top: 0;
+        padding: 0px 0px 0px 0px;
+        margin-top: 10px;
+        left: 0;
+        margin-left: 15px;
+    }
+
+    .container-main .card h4 {
+        font-size: 7px;
+    }
+
+    .container-main .card h5 {
+        font-size: 7px;
+    }
+
+    .navbar .container-fluid img {
+        margin-left: 0px;
+    }
+
+    nav .container-fluid button.navbar-toggler {
+        margin-top: 40px;
+        position: absolute;
+        top: 50%;
+        /* transform: translateY(-50%); */
+        transform: translateX(-100%);
+    }
+
+    nav .container-fluid .navbar-collapse .navbar-nav {
+        margin-top: 60px;
+        transform: translateX(-20%);
+    }
+
+    .accounts button {
+        margin-left: 100px;
+    }
+}
+
+
+@media (max-width: 220px) {
+    nav {
+        height: 200px;
+    }
+
+    .container-main .card {
+        position: absolute;
+        width: 80px;
+        height: 100px;
+        top: 0;
+        padding: 0px 0px 0px 0px;
+        margin-top: 20px;
+        left: 0;
+        margin-left: 5px;
+    }
+
+    .container-main .card h4 {
+        font-size: 5px;
+    }
+
+    .container-main .card h5 {
+        font-size: 5px;
+    }
+
+    .navbar .container-fluid img {
+        margin-left: 0px;
+    }
+
+    nav .container-fluid button.navbar-toggler {
+        margin-top: 40px;
+        position: absolute;
+        top: 50%;
+        /* transform: translateY(-50%); */
+        transform: translateX(-100%);
+    }
+
+    nav .container-fluid .navbar-collapse .navbar-nav {
+        margin-top: 60px;
+        transform: translateX(-20%);
+    }
+}
+
+
+.container-about {
+    position: relative;
+    height: 511px;
+    background-color: #171715;
+    z-index: -1;
+}
+
+.container-about .card {
+    position: absolute;
+    border: 2px solid #171715;
+    width: 23rem;
+    background-color: #171715;
+    margin-top: 52px;
+    margin-left: 50px;
+}
+
+.container-about p {
+    position: absolute;
+    color: white;
+    width: 50%;
+    font-size: 20px;
+    right: 0;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+
+@media (max-width: 1115px) {
+
+    .container-about {
+        position: relative;
+        height: 511px;
+        background-color: #171715;
+        z-index: -1;
+    }
+
+    .container-about .card {
+        position: absolute;
+        border: 2px solid #171715;
+        width: 23rem;
+        background-color: #171715;
+        margin-top: 52px;
+        margin-left: 50px;
+    }
+
+    .container-about p {
+        position: absolute;
+        color: white;
+        width: 50%;
+        font-size: 18px;
+        right: 0;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+        margin-top: 90px;
+        margin-right: 50px;
+    }
+
+}
+
+
+
+
+@media (max-width: 955px) {
+
+    .container-about {
+        position: relative;
+        height: 511px;
+        background-color: #171715;
+        z-index: -1;
+    }
+
+    .container-about .card {
+        position: absolute;
+        border: 2px solid #171715;
+        width: 23rem;
+        background-color: #171715;
+        margin-top: 52px;
+        margin-left: 40px;
+    }
+
+    .container-about p {
+        position: absolute;
+        color: white;
+        width: 50%;
+        font-size: 16px;
+        right: 0;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+        margin-top: 90px;
+        margin-right: 30px;
+    }
+
+}
+
+
+
+@media (max-width: 860px) {
+
+    .container-about {
+        position: relative;
+        height: 511px;
+        background-color: #171715;
+        z-index: -1;
+    }
+
+    .container-about .card {
+        position: absolute;
+        border: 2px solid #171715;
+        width: 23rem;
+        background-color: #171715;
+        margin-top: 52px;
+        margin-left: 50px;
+    }
+
+    .container-about p {
+        position: absolute;
+        color: white;
+        width: 45%;
+        font-size: 15px;
+        right: 0;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+        margin-top: 90px;
+        margin-right: 20px;
+    }
+
+}
+
+
+
+
+@media (max-width: 730px) {
+
+    .container-about {
+        position: relative;
+        height: 511px;
+        background-color: #171715;
+        z-index: -1;
+    }
+
+    .container-about .card {
+        position: absolute;
+        border: 2px solid #171715;
+        width: 23rem;
+        background-color: #171715;
+        margin-top: 52px;
+        margin-left: 10px;
+    }
+
+    .container-about p {
+        position: absolute;
+        color: white;
+        width: 45%;
+        font-size: 15px;
+        right: 0;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+        margin-top: 60px;
+        margin-right: 20px;
+    }
+
+}
+
+
+
+@media (max-width: 693px) {
+
+    .container-about {
+        position: relative;
+        height: 511px;
+        background-color: #171715;
+        z-index: -1;
+    }
+
+    .container-about .card {
+        position: absolute;
+        border: 2px solid #171715;
+        width: 23rem;
+        background-color: #171715;
+        margin-top: 52px;
+        margin-left: -50px;
+    }
+
+    .container-about p {
+        position: absolute;
+        color: white;
+        width: 45%;
+        font-size: 13px;
+        right: 0;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+        margin-top: 100px;
+        margin-right: 20px;
+    }
+
+}
+
+
+@media (max-width: 594px) {
+
+
+    .container-main3 {
+        height: 70rem;
+    }
+    .container-main3 .skills {
+        margin-left: 50px;
+        width: 10rem;
+    }
+    .container-main3 .suigas {
+        position: absolute;
+        font-size: 12px;
+        text-align: center;
+        margin-top: 70px;
+        right: 0;
+    }
+
+}
+
+@media (max-width: 540px) {
+
+
+    .container-main3 {
+        height: 70rem;
+    }
+    .container-main3 .skills {
+        margin-left: 50px;
+        width: 10rem;
+    }
+    .container-main3 .suigas {
+        position: absolute;
+        font-size: 12px;
+        text-align: center;
+        margin-top: 70px;
+        right: 0;
+        margin-right: 20px;
+    }
+
+}
+
+
+
+@media (max-width: 510px) {
+
+    .container-about {
+        position: relative;
+        height: 511px;
+        background-color: #171715;
+        z-index: -1;
+    }
+
+    .container-about .card {
+        position: absolute;
+        border: 2px solid #171715;
+        width: 23rem;
+        background-color: #171715;
+        margin-top: 52px;
+        margin-left: -50px;
+    }
+
+    .container-about p {
+        position: absolute;
+        color: white;
+        width: 45%;
+        font-size: 12px;
+        right: 0;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+        margin-top: 70px;
+        margin-right: 20px;
+    }
+
+}
+
+
+@media (max-width: 475px) {
+
+    .container-about {
+        position: relative;
+        height: 511px;
+        background-color: #171715;
+        z-index: -1;
+    }
+
+    .container-about .card {
+        position: absolute;
+        border: 2px solid #171715;
+        width: 20rem;
+        background-color: #171715;
+        margin-top: 112px;
+        margin-left: -50px;
+    }
+
+    .container-about p {
+        position: absolute;
+        color: white;
+        width: 45%;
+        font-size: 11px;
+        right: 0;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+        margin-top: 100px;
+        margin-right: 20px;
+    }
+
+}
+
+
+
+@media (max-width: 423px) {
+
+    .container-about {
+        position: relative;
+        height: 511px;
+        background-color: #171715;
+        z-index: -1;
+    }
+
+    .container-about .card {
+        position: absolute;
+        border: 2px solid #171715;
+        width: 20rem;
+        background-color: #171715;
+        margin-top: 112px;
+        margin-left: -50px;
+    }
+
+    .container-about p {
+        position: absolute;
+        color: white;
+        width: 45%;
+        font-size: 11px;
+        right: 0;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+        margin-top: 70px;
+        margin-right: 20px;
+    }
+
+}
+
+
+@media (max-width: 400px) {
+
+    .container-about {
+        position: relative;
+        height: 70rem;
+        background-color: #171715;
+        z-index: -1;
+    }
+
+    .container-about .card {
+        position: absolute;
+        border: 2px solid #171715;
+        width: 20rem;
+        background-color: #171715;
+        margin-top: 112px;
+        margin-left: 30px;
+        border-bottom: 2px solid white;
+    }
+
+    .container-about p {
+        position: absolute;
+        color: white;
+        width: 70%;
+        font-size: 15px;
+        right: 0;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+        bottom: 0;
+        margin-right: 50px;
+        /* margin-top: 270px; */
+    }
+
+}
+
+
+
+@media (max-width: 370px) {
+
+    .container-about {
+        position: relative;
+        height: 75rem;
+        background-color: #171715;
+        z-index: -1;
+    }
+
+    .container-about .card {
+        position: absolute;
+        border: 2px solid #171715;
+        width: 20rem;
+        background-color: #171715;
+        margin-top: 112px;
+        margin-left: 20px;
+        border-bottom: 2px solid white;
+    }
+
+    .container-about p {
+        position: absolute;
+        color: white;
+        width: 70%;
+        font-size: 15px;
+        right: 0;
+        padding: 5px 5px 5px 5px;
+        bottom: 0;
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+
+}
+
+
+
+
+
+
+@media (max-width: 354px) {
+
+    .container-about {
+        position: relative;
+        height: 75rem;
+        background-color: #171715;
+        z-index: -1;
+    }
+
+    .container-about .card {
+        position: absolute;
+        border: 2px solid #171715;
+        width: 18rem;
+        background-color: #171715;
+        margin-top: 112px;
+        margin-left: 20px;
+        border-bottom: 2px solid white;
+    }
+
+    .container-about p {
+        position: absolute;
+        color: white;
+        width: 70%;
+        font-size: 15px;
+        right: 0;
+        padding: 5px 5px 5px 5px;
+        bottom: 0;
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+
+    .accounts {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    .accounts button {
+        width: 80px;
+        padding: 0px 0px 0px 0px;
+        font-size: 11px;
+        margin-right: 13px;
+    }
+
+}
+
+
+
+@media (max-width: 322px) {
+
+    .container-about {
+        position: relative;
+        height: 75rem;
+        background-color: #171715;
+        z-index: -1;
+    }
+
+    .container-about .card {
+        position: absolute;
+        border: 2px solid #171715;
+        width: 16rem;
+        background-color: #171715;
+        margin-top: 112px;
+        margin-left: 20px;
+        border-bottom: 2px solid white;
+    }
+
+    .container-about p {
+        position: absolute;
+        color: white;
+        width: 70%;
+        font-size: 15px;
+        right: 0;
+        padding: 5px 5px 5px 5px;
+        bottom: 0;
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+
+    .accounts {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-top: 0px;
+        padding-right: 100px;
+    }
+
+    .accounts button {
+        display: block;
+        margin-top: 10px;
+    }
+
+}
+
+
+
+@media (max-width: 300px) {
+
+    .container-about {
+        position: relative;
+        height: 78rem;
+        background-color: #171715;
+        z-index: -1;
+    }
+
+    .container-about .card {
+        position: absolute;
+        border: 2px solid #171715;
+        width: 16rem;
+        background-color: #171715;
+        margin-top: 112px;
+        margin-left: 20px;
+        border-bottom: 2px solid white;
+    }
+
+    .container-about p {
+        position: absolute;
+        color: white;
+        width: 70%;
+        font-size: 15px;
+        right: 0;
+        padding: 5px 5px 5px 5px;
+        bottom: 0;
+        margin-right: 40px;
+        margin-top: 0px;
+    }
+
+}
+
+
+
+@media (max-width: 290px) {
+
+    .container-about {
+        position: relative;
+        height: 80rem;
+        background-color: #171715;
+        z-index: -1;
+    }
+
+    .container-about .card {
+        position: absolute;
+        border: 2px solid #171715;
+        width: 15rem;
+        background-color: #171715;
+        margin-top: 112px;
+        margin-left: 17px;
+        border-bottom: 2px solid white;
+    }
+
+    .container-about p {
+        position: absolute;
+        color: white;
+        width: 70%;
+        font-size: 15px;
+        right: 0;
+        padding: 5px 5px 5px 5px;
+        bottom: 0;
+        margin-right: 40px;
+        margin-top: 0px;
+    }
+
+}
+
+
+
+
+
+
+@media (max-width: 271px) {
+
+    .container-about {
+        position: relative;
+        height: 80rem;
+        background-color: #171715;
+        z-index: -1;
+    }
+
+    .container-about .card {
+        position: absolute;
+        border: 2px solid #171715;
+        width: 13rem;
+        background-color: #171715;
+        margin-top: 112px;
+        margin-left: 22px;
+        border-bottom: 2px solid white;
+    }
+
+    .container-about p {
+        position: absolute;
+        color: white;
+        width: 70%;
+        font-size: 15px;
+        right: 0;
+        padding: 5px 5px 5px 5px;
+        bottom: 0;
+        margin-right: 40px;
+        margin-top: 0px;
+    }
+
+    .accounts {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-top: 50px;
+        padding-left: 70px;
+    }
+
+    .accounts button {
+        margin-right: 30px;
+    }
+
+    .container-main3 {
+        height: 70rem;
+    }
+
+    .container-main3 img {
+        margin-left: 0;
+    }
+    .container-main3 .suigas{
+        width: 70%;
+        font-size: 14px;
+        padding-top: 300px;
+    }
+}
+
+@media (max-width: 265px) {
+
+    .container-about {
+        position: relative;
+        height: 84rem;
+        background-color: #171715;
+        z-index: -1;
+    }
+
+    .container-about .card {
+        position: absolute;
+        border: 2px solid #171715;
+        width: 13rem;
+        background-color: #171715;
+        margin-top: 112px;
+        margin-left: 22px;
+        border-bottom: 2px solid white;
+    }
+
+    .container-about p {
+        position: absolute;
+        color: white;
+        width: 70%;
+        font-size: 15px;
+        right: 0;
+        padding: 5px 5px 5px 5px;
+        bottom: 0;
+        margin-right: 40px;
+        margin-top: 0px;
+    }
+
+}
+
+
+
+
+@media (max-width: 252px) {
+
+    .container-about {
+        position: relative;
+        height: 87rem;
+        background-color: #171715;
+        z-index: -1;
+    }
+
+    .container-about .card {
+        position: absolute;
+        border: 2px solid #171715;
+        width: 13rem;
+        background-color: #171715;
+        margin-top: 112px;
+        margin-left: 14px;
+        border-bottom: 2px solid white;
+    }
+
+    .container-about p {
+        position: absolute;
+        color: white;
+        width: 70%;
+        font-size: 15px;
+        right: 0;
+        padding: 5px 5px 5px 5px;
+        bottom: 0;
+        margin-right: 40px;
+        margin-top: 0px;
+    }
+
+}
+
+
+.container-main {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: #171715;
+}
+.container-main img {
+    width: 20rem;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+
+.container-main p {
+    position: absolute;
+    color: white;
+    width: 40%;
+    right: 0;
+    margin-top: 50px;
+    margin-right: 100px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.container-main .suigas{
+    padding-top: 30px;
+
+}
+
+
+@media (max-width: 943px) {
+    .container-main3 {
+        height: 700px;
+    }
+}
+
+
+@media (max-width: 825px) {
+    .container-main3 {
+        height: 50rem;
+    }
+}
+
+
+@media (max-width: 794px) {
+    .container-main3 {
+        height: 50rem;
+    }
+    .container-main3 .skills {
+        width: 200px;
+    }
+    .container-main3 .suigas {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 737px) {
+    .container-main3 {
+        height: 700px;
+    }
+    .container-main3 p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container-main3 {
+        height: 50rem;
+    }
+    .container-main3 .skills {
+        margin-left: 10px;
+        width: 200px;
+    }
+    .container-main3 .suigas {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 561px) {
+    .container-main3 {
+        height: 700px;
+    }
+    .container-main3 p {
+        font-size: 12px;
+    }
+}
+
+
+
+@media (max-width: 458px) {
+    .container-main3 {
+        height: 70rem;
+    }
+
+
+    .container-main3 .skills {
+        position: absolute;
+        margin-left: 120px;
+    }
+
+    .container-main3 .suigas{
+        position: absolute;
+        width: 70%;
+        font-size: 20px;
+        left: 0;
+        padding-top: 300px;
+        margin-left: 70px;
+        text-align: left;
+    }
+}
+
+
+@media (max-width: 393px) {
+    .container-main3 {
+        height: 70rem;
+    }
+   
+    .container-main3 .skills {
+        position: absolute;
+        margin-left: 80px;
+    }
+
+    .container-main3 .suigas{
+        width: 70%;
+        font-size: 17px;
+        padding-top: 300px;
+    }
+}
+
+@media (max-width: 317px) {
+    .container-main3 {
+        height: 70rem;
+    }
+    .container-main3 .skills{
+        margin-left: 30px;
+    }
+    .container-main3 .suigas{
+        width: 70%;
+        font-size: 15px;
+        padding-top: 300px;
+        margin-left: 50px;
+    }
+}
+
+
+
+@media (max-width: 296px) {
+    .container-main3 {
+        height: 60rem;
+    }
+    .container-main3 .skills{
+        position: absolute;
+        width: 160px;
+        left: 0;
+        margin-left: 40px;
+    }
+    .container-main3 .suigas{
+        width: 70%;
+        font-size: 14px;
+        padding-top: 230px;
+        margin-left: 40px;
+    }
+}
+
+
+.container-main3 .skills {
+    width: 30%;
+    position: absolute;
+    right: 0;
+    margin-top: 100px;
+    margin-right: 70px;
+}
+.container-main3 .aboutSkills span{
+    color: white;
+    display: block;
+    font-size: 25px;
+}
+
+.container-main3 .aboutSkills {
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+@media (max-width: 500px) {
+    .container-main3 {
+        height: 53rem;
+    }
+    .container-main3 .skills {
+        width: 70%;
+        position: absolute;
+        left: 0;
+        margin-left: 80px;
+    }
+    .container-main3 .aboutSkills {
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+
+@media (max-width: 300px) {
+    .container-main3 {
+        height: 53rem;
+    }
+    .container-main3 .skills {
+        width: 70%;
+        position: absolute;
+        left: 0;
+        margin-left: 50px;
+    }
+    .container-main3 .aboutSkills {
+        position: absolute;
+        bottom: 0;
+    }
+}
